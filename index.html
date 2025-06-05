@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recycle App - Turn Waste into Cash</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #1cbf73, #159c60, #0b8f4a);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @keyframes gradientBG {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      max-width: 600px;
+    }
+
+    .download-button {
+      background-color: #fff;
+      color: #1cbf73;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.2s;
+      text-decoration: none;
+    }
+
+    .download-button:hover {
+      background-color: #e0f7ed;
+      transform: scale(1.05);
+    }
+
+    .app-image {
+      width: 280px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Recycle - Convert Waste to Cash</h1>
+  <p>Join thousands of Nigerians already turning their household waste into valuable points that can be redeemed for real cash. Recycle smarter, live greener.</p>
+  <a href="#" class="download-button">Download Now</a>
+  <img src="https://cdn-icons-png.flaticon.com/512/3522/3522094.png" alt="Recycle App Screenshot" class="app-image" />
+</body>
+
+</html>
